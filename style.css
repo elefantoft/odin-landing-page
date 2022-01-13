@@ -127,3 +127,40 @@ button {
     width: 850px;
     text-align: end;
 }
+
+.section-4 {
+    padding: 50px 250px 150px 250px; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.flag {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+    border-radius: 10px;
+    width: 1000px;
+    flex: none;
+}
+
+.text {
+    font-size: 28px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.text2 {
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.button2 {
+    border: solid #F9FAF8 2px;
+    font-size: 20px;
+    color: #F9FAF8;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
