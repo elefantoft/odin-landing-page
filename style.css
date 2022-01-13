@@ -104,3 +104,26 @@ button {
     font-size: 14px;
     margin-top: 10px;
 }
+
+.section-3 {
+    background-color: #E5E7EB;
+    padding: 100px 250px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    width: 1000px;
+}
+
+.citation {
+    font-size: 28px;
+    font-weight: 700;
+    width: 850px;
+    text-align: end;
+}
