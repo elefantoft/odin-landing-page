@@ -72,3 +72,35 @@ button {
     color: #F9FAF8;
     font-weight: 700;
 }
+
+.section-2 {
+    padding: 50px 250px 150px 250px;  
+}
+
+.header-2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.illcon {
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6 4px;
+    border-radius: 15px;
+}
+
+.illtext {
+    text-align: center;
+    width: 150px;
+    font-size: 14px;
+    margin-top: 10px;
+}
