@@ -4,7 +4,7 @@ body {
     flex-direction: column;
 }
 
-.section-1 {
+.sec-1 {
     background-color: #1F2937;
     padding: 20px 250px 150px 250px;    
 }
@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
 }
 
-.logo {
+.header div {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -27,43 +27,29 @@ ul {
     gap: 22px; 
 }
 
-a {
+a, .secon, .img div {
     text-decoration: none;
-}
-
-a, .secondary, .placeholder {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: lighter;
 }
 
 .hero {
     display: flex;
     padding-top: 100px;
-    flex-wrap: nowrap;
 }
 
-.main {
+.hero .text {
+    flex: 1 1 100%;
+    width: 0;
+}
+.text .main {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 
-.imgcontainer {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #47576e;
-    margin-left: 32px;
-    height: 250px;
-    min-width: 300px;
-}
-
-.placeholder {
-    text-align: center;
-}
-
-button {
+.text button {
     background-color: #3882F6;
     border: 0;
     padding: 8px 24px;
@@ -73,25 +59,41 @@ button {
     font-weight: 700;
 }
 
-.section-2 {
-    padding: 50px 250px 150px 250px;  
+.img {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #47576e;
+    margin-left: 32px;
+    width: 0;
 }
 
-.header-2 {
-    color: #1F2937;
-    font-size: 36px;
-    font-weight: 800;
+.img div {
     text-align: center;
 }
 
-.container {
+
+
+.sec-2 {
+    padding: 50px 250px 150px 250px;  
+}
+
+.sec-2 .title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800px;
+    text-align: center;
+}
+
+.sec-2 .container {
     display: flex;
     justify-content: center;
     gap: 50px;
     margin-top: 50px;
 }
 
-.illcon {
+.box {
     width: 150px;
     height: 150px;
     border: solid #3882F6 4px;
@@ -105,7 +107,9 @@ button {
     margin-top: 10px;
 }
 
-.section-3 {
+
+
+.sec-3 {
     background-color: #E5E7EB;
     padding: 100px 250px;  
     display: flex;
@@ -121,15 +125,17 @@ button {
     width: 1000px;
 }
 
-.citation {
+.quote div {
     font-size: 28px;
     font-weight: 700;
-    width: 850px;
     text-align: end;
+    margin-right: 80px;
 }
 
-.section-4 {
-    padding: 50px 250px 150px 250px; 
+
+
+.sec-4 {
+    padding: 100px 250px; 
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -146,21 +152,36 @@ button {
     flex: none;
 }
 
-.text {
+.flag .title {
     font-size: 28px;
     color: #F9FAF8;
     font-weight: 700;
 }
 
-.text2 {
+.flag .text {
     color: #F9FAF8;
     font-size: 20px;
 }
 
-.button2 {
+.flag button {
     border: solid #F9FAF8 2px;
     font-size: 20px;
     color: #F9FAF8;
+    background-color: #3882F6;
     padding: 5px 30px;
     border-radius: 10px;
+}
+
+
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer div {
+    color: #E5E7EB;
 }
